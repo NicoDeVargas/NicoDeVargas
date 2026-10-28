@@ -1,84 +1,63 @@
-<a href="https://github.com/NicoDeVargas">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f3864,100:7a1f2b&height=160&section=header&text=Nicolas%20de%20Vargas&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=AI%20Engineer%20%C2%B7%20LLMs%20in%20production&descAlignY=60&descSize=16" width="100%" alt="Nicolas de Vargas"/>
-</a>
+<div align="center">
 
-<table>
-<tr>
-<td width="190" valign="top">
-  <img src="assets/avatar.jpg" width="180" alt="Nicolas and a budgie on the beach"/>
-</td>
-<td valign="top">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f3864,100:7a1f2b&height=150&section=header&text=Nicolas%20de%20Vargas&fontColor=ffffff&fontSize=42&fontAlignY=40&desc=AI%20Engineer%20%C2%B7%20LLMs%20in%20production&descAlignY=62&descSize=15" width="100%" alt="Nicolas de Vargas"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=E6C07B&vCenter=true&width=460&lines=I+build+AI+products+that+ship.;Agents%2C+RAG%2C+real-time+voice%2C+fine-tuning.;If+it+isn%27t+measured%2C+it+isn%27t+done." alt="typing intro"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&pause=1400&color=E6C07B&center=true&vCenter=true&width=520&lines=I+build+AI+products+that+ship.;Agents+%C2%B7+RAG+%C2%B7+real-time+voice+%C2%B7+fine-tuning;If+it+isn%27t+measured%2C+it+isn%27t+done." alt="I build AI products that ship"/>
 
-Computer Engineering student at **CEFET-MG** (Belo Horizonte, Brazil 🇧🇷) and AI developer at **AI4Sellers**, where I went from intern to junior building AI sales simulators used by 1,000+ salespeople.
+<p>
+<a href="https://www.linkedin.com/in/nicolas-de-vargas-446435221/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:nicolas.vargas8@gmail.com"><img src="https://img.shields.io/badge/Email-333333?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://www.instagram.com/nicorvg/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/></a>
+</p>
 
-I like owning things end to end: architecture on AWS, the LLM pipeline, the benchmark that proves it works, and the deploy.
+</div>
 
-☕ Runs on coffee &nbsp;·&nbsp; 🎮 Elden Ring, still dodging Waterfowl Dance
+<img src="assets/avatar.jpg" align="right" width="170" alt="Nicolas with a budgie on the beach"/>
 
-</td>
-</tr>
-</table>
+### 👋 About me
+
+- 🎓 Computer Engineering at **CEFET-MG**, Belo Horizonte 🇧🇷
+- 💼 AI developer at **AI4Sellers**, intern → junior, building AI sales simulators used by **1,000+** salespeople
+- 🧱 I own things end to end: AWS architecture, the LLM pipeline, the benchmark that proves it, the deploy
+- 📜 AWS Certified AI Practitioner and AI Business Strategist, Nov 2026
+- ☕ Runs on coffee · 🎮 still dodging Waterfowl Dance
+
+<br clear="right"/>
 
 ### ⚔️ Recent wins
 
-| Result | How |
-|---|---|
-| **−71%** cost per voice simulation | Proposed a cascaded STT → LLM → TTS pipeline to replace a realtime API; validated with my own cost, latency and prompt-attack benchmark (US$ 0.48 → 0.14) |
-| **40% → 0%** product hallucinations | Moved a B2B sales copilot from plain RAG on Postgres to hybrid graph RAG; measured on a 1,000-question test battery |
-| **10–20 min → 2 min** CRM notes | Voice agent that interviews the salesperson right after a client meeting; empty CRM fields dropped from 45% to 0% |
-| **~60%** AWS savings on pilots | Designed the multi-client AWS architecture (ECS, RDS, Lambda, CDK) and moved pilots to serverless |
-| **11% → 93%** action accuracy | Fine-tuned Qwen3-8B with LoRA for in-game NPC dialogue with structured JSON actions |
+- **−71% cost per voice simulation**: cascaded STT → LLM → TTS instead of a realtime API, chosen with my own benchmark (US$ 0.48 → 0.14)
+- **40% → 0% hallucinations**: B2B sales copilot moved from plain RAG to hybrid graph RAG, measured on 1,000 questions
+- **10–20 min → 2 min CRM notes**: a voice agent interviews the salesperson after each meeting; empty fields 45% → 0%
+- **~60% AWS savings**: multi-client architecture on ECS, RDS and Lambda, with serverless pilots
+- **11% → 93% action accuracy**: LoRA fine-tune of Qwen3-8B for game NPCs
 
 ### 🗡️ Featured projects
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**[qwen3-npc-dialogue-lora](https://github.com/NicoDeVargas/qwen3-npc-dialogue-lora)**<br>
-LoRA fine-tune of Qwen3-8B that plays the NPCs of my Godot RPG and returns JSON the game executes. Includes why merging and requantizing to Q4 dropped accuracy from 90% to 30%.<br><br>
-`PyTorch` `PEFT` `llama.cpp` `AWS`
-
-</td>
-<td width="33%" valign="top">
-
-**[Fluente](https://github.com/NicoDeVargas/fluente-ia-avaliador-de-leitura)**<br>
-A child reads aloud for one minute; Fluente returns words correct per minute and marks every word, with a deterministic aligner and no LLM in the scoring. [Live demo](https://fluente-black.vercel.app)<br><br>
-`Next.js` `AssemblyAI` `Supabase`
-
-</td>
-<td width="33%" valign="top">
-
-**[Sinal de Alarme](https://github.com/NicoDeVargas/sinal-de-alarme-AssemblyAI-Voice-Agent-Hackathon)**<br>
-Voice training for dengue warning signs: health workers interview a virtual patient who hides what matters, then get a graded correction. AssemblyAI Voice Agent Hackathon.<br><br>
-`Voice agents` `TypeScript`
-
-</td>
-</tr>
-</table>
+| Project | What it is | Stack |
+|---|---|---|
+| [**qwen3-npc-dialogue-lora**](https://github.com/NicoDeVargas/qwen3-npc-dialogue-lora) | Qwen3-8B fine-tuned to play my Godot RPG's NPCs and return JSON actions. Shows why merging and requantizing dropped accuracy from 90% to 30% | PyTorch · PEFT · llama.cpp |
+| [**Fluente**](https://github.com/NicoDeVargas/fluente-ia-avaliador-de-leitura) | Scores a child's one-minute reading word by word, with a deterministic aligner and no LLM in the grade. [Live](https://fluente-black.vercel.app) | Next.js · AssemblyAI · Supabase |
+| [**Sinal de Alarme**](https://github.com/NicoDeVargas/sinal-de-alarme-AssemblyAI-Voice-Agent-Hackathon) | Voice training for dengue warning signs: interview a virtual patient who hides what matters. AssemblyAI hackathon | Voice agents · TypeScript |
 
 ### 🛠️ Toolkit
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+<p>
+<img src="https://skillicons.dev/icons?i=py,ts,nodejs,nextjs,react,postgres,aws,docker,pytorch,supabase,linux,git&perline=12" alt="Python, TypeScript, Node.js, Next.js, React, PostgreSQL, AWS, Docker, PyTorch, Supabase, Linux, Git"/>
+</p>
 
-📜 Working on **AWS Certified AI Practitioner** and **AWS Certified AI Business Strategist** (Nov 2026).
+<p>
+<img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"/>
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/>
+<img src="https://img.shields.io/badge/Amazon%20Bedrock-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="Amazon Bedrock"/>
+<img src="https://img.shields.io/badge/llama.cpp-000000?style=flat-square&logo=meta&logoColor=white" alt="llama.cpp"/>
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"/>
+</p>
 
-<details>
-<summary>🌸 <b>Boss fight</b></summary>
+### 🌸 Boss fight
 
 ```text
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -131,13 +110,11 @@ Voice training for dengue warning signs: health workers interview a virtual pati
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠋⠉⠙⠛⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ```
 
-<p align="center"><i>Let me solo her.</i><br><sub>Malenia, after the painting by <a href="https://redgryphon.tumblr.com/post/718970603876515841/malenia-blade-of-miquella-pose-based-on-an">redgryphon</a>, converted to braille dots</sub></p>
-</details>
+<div align="center">
 
-### 📫 Reach me
+*Let me solo her.*<br>
+<sub>Malenia, after the painting by <a href="https://redgryphon.tumblr.com/post/718970603876515841/malenia-blade-of-miquella-pose-based-on-an">redgryphon</a>, converted to braille</sub>
 
-<a href="https://www.linkedin.com/in/nicolas-de-vargas-446435221/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:nicolas.vargas8@gmail.com"><img src="https://img.shields.io/badge/Email-333333?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://www.instagram.com/nicorvg/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7a1f2b,100:1f3864&height=80&section=footer" width="100%" alt=""/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7a1f2b,100:1f3864&height=90&section=footer" width="100%" alt=""/>
+</div>
