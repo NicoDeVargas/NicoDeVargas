@@ -112,7 +112,7 @@
 
 <div align="center">
 
-*Let me solo her.*<br>
+**K/D vs. Malenia: 5 / ∞**<br>
 <sub>Malenia, after the painting by <a href="https://redgryphon.tumblr.com/post/718970603876515841/malenia-blade-of-miquella-pose-based-on-an">redgryphon</a>, converted to braille</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7a1f2b,100:1f3864&height=80&section=footer" width="100%" alt=""/>
