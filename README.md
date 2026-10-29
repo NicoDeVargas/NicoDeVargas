@@ -33,7 +33,7 @@
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**qwen3-npc-dialogue-lora**](https://github.com/NicoDeVargas/qwen3-npc-dialogue-lora) | Qwen3-8B fine-tuned to play my Godot RPG's NPCs and return JSON actions. Shows why merging and requantizing dropped accuracy from 90% to 30% | PyTorch · PEFT · llama.cpp |
+| [**qwen3-npc-dialogue-lora**](https://github.com/NicoDeVargas/qwen3-npc-dialogue-lora) | Qwen3-8B fine-tuned to play my Godot RPG's NPCs and return JSON actions. Shows why merging and requantizing dropped accuracy from 90% to 30% | PyTorch · PEFT · llama.cpp · [🤗 model](https://huggingface.co/NicoDeVargas/qwen3-8b-npc-dialogue-lora) |
 | [**Fluente**](https://github.com/NicoDeVargas/fluente-ia-avaliador-de-leitura) | Scores a child's one-minute reading word by word, with a deterministic aligner and no LLM in the grade. [Live](https://fluente-black.vercel.app) | Next.js · AssemblyAI · Supabase |
 | [**Sinal de Alarme**](https://github.com/NicoDeVargas/sinal-de-alarme-AssemblyAI-Voice-Agent-Hackathon) | Voice training for dengue warning signs: interview a virtual patient who hides what matters. AssemblyAI hackathon | Voice agents · TypeScript |
 
