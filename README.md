@@ -12,8 +12,6 @@
 
 </div>
 
-<img src="assets/avatar.jpg" align="right" width="170" alt="Nicolas with a budgie on the beach"/>
-
 ### 👋 About me
 
 - 🎓 Computer Engineering at **CEFET-MG**, Belo Horizonte 🇧🇷
@@ -22,7 +20,6 @@
 - 📜 AWS Certified AI Practitioner and AI Business Strategist, Nov 2026
 - ☕ Runs on coffee · 🎮 still dodging Waterfowl Dance
 
-<br clear="right"/>
 
 ### ⚔️ Recent wins
 
