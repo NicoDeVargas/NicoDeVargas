@@ -15,7 +15,7 @@
 ### 👋 About me
 
 - 🎓 Computer Engineering at **CEFET-MG**, Belo Horizonte 🇧🇷
-- 💼 AI developer at **AI4Sellers**, intern → junior, building AI sales simulators used by **1,000+** salespeople
+- 💼 AI developer at **AI4Sellers**, intern → junior, building AI sales simulators used by **100+** salespeople
 - 🧱 I own things end to end: AWS architecture, the LLM pipeline, the benchmark that proves it, the deploy
 - 📜 AWS Certified AI Practitioner and AI Business Strategist, Nov 2026
 - ☕ Runs on coffee · 🎮 still dodging Waterfowl Dance
