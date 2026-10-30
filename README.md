@@ -5,7 +5,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&pause=1400&color=E6C07B&center=true&vCenter=true&width=520&lines=I+build+AI+products+that+ship.;Agents+%C2%B7+RAG+%C2%B7+real-time+voice+%C2%B7+fine-tuning;If+it+isn%27t+measured%2C+it+isn%27t+done." alt="I build AI products that ship"/>
 
 <p>
-<a href="https://www.linkedin.com/in/nicolas-de-vargas-446435221/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/nicodevargas"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:nicolas.vargas8@gmail.com"><img src="https://img.shields.io/badge/Email-333333?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://www.instagram.com/nicorvg/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/></a>
 </p>
