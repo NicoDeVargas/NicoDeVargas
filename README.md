@@ -27,12 +27,14 @@
 - **40% → 0% hallucinations**: B2B sales copilot moved from plain RAG to hybrid graph RAG, measured on 1,000 questions
 - **10–20 min → 2 min CRM notes**: a voice agent interviews the salesperson after each meeting; empty fields 45% → 0%
 - **~60% AWS savings**: multi-client architecture on ECS, RDS and Lambda, with serverless pilots
+- **87% accuracy at zero cost per review**: distilled Claude Opus into a BERTimbau that runs in the browser, matching its teacher on a human-labelled test set
 - **11% → 93% action accuracy**: LoRA fine-tune of Qwen3-8B for game NPCs
 
 ### 🗡️ Featured projects
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**Review radar**](https://github.com/NicoDeVargas/ecommerce-classificator) | Turns e-commerce reviews into actions: the listing to fix, the defective batch, the state where delivery fails. Runs in the browser, so reviews never leave the seller's computer. [Live](https://nicodevargas.github.io/ecommerce-classificator/) | BERTimbau · ONNX int8 · transformers.js · [🤗 model](https://huggingface.co/NicoDeVargas/radar-avaliacoes-bertimbau) |
 | [**qwen3-npc-dialogue-lora**](https://github.com/NicoDeVargas/qwen3-npc-dialogue-lora) | Qwen3-8B fine-tuned to play my Godot RPG's NPCs and return JSON actions. Shows why merging and requantizing dropped accuracy from 90% to 30% | PyTorch · PEFT · llama.cpp · [🤗 model](https://huggingface.co/NicoDeVargas/qwen3-8b-npc-dialogue-lora) |
 | [**Fluente**](https://github.com/NicoDeVargas/fluente-ia-avaliador-de-leitura) | Scores a child's one-minute reading word by word, with a deterministic aligner and no LLM in the grade. [Live](https://fluente-black.vercel.app) | Next.js · AssemblyAI · Supabase |
 | [**Sinal de Alarme**](https://github.com/NicoDeVargas/sinal-de-alarme-AssemblyAI-Voice-Agent-Hackathon) | Voice training for dengue warning signs: interview a virtual patient who hides what matters. AssemblyAI hackathon | Voice agents · TypeScript |
