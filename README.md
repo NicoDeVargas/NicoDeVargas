@@ -23,7 +23,7 @@
 
 ### ⚔️ Recent wins
 
-- **−71% cost per voice simulation**: cascaded STT → LLM → TTS instead of a realtime API, chosen with my own benchmark (US$ 0.48 → 0.14)
+- **−68% cost per voice simulation**: cascaded STT → LLM → TTS instead of a realtime API, chosen with my own benchmark (US$ 0.44 → 0.14)
 - **40% → 0% hallucinations**: B2B sales copilot moved from plain RAG to hybrid graph RAG, measured on 1,000 questions
 - **10–20 min → 2 min CRM notes**: a voice agent interviews the salesperson after each meeting; empty fields 45% → 0%
 - **~60% AWS savings**: multi-client architecture on ECS, RDS and Lambda, with serverless pilots
